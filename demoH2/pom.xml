@@ -10,10 +10,10 @@
 		<version>2.1.5.RELEASE</version>
 		<relativePath /> <!-- lookup parent from repository jenkins -->
 	</parent>
-	<groupId>com.bodmas</groupId>
-	<artifactId>demoH2</artifactId>
+	<groupId>com.stock.api</groupId>
+	<artifactId>Stock</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>demoH2</name>
+	<name>stock</name>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>
@@ -97,6 +97,14 @@
 			<artifactId>commons-logging</artifactId>
 			<version>1.2</version>
 		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/com.yahoofinance-api/YahooFinanceAPI -->
+		<dependency>
+		    <groupId>com.yahoofinance-api</groupId>
+		    <artifactId>YahooFinanceAPI</artifactId>
+		    <version>3.5.0</version>
+		</dependency>
+
 
 	</dependencies>
 	<build>
